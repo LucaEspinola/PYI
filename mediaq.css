@@ -1,0 +1,45 @@
+
+@media (max-width: 768px) {
+        .abrir__menu {
+            display: block;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    
+        .cerrar__menu {
+            cursor: pointer;
+            display: block;
+            border: none;
+            background-color: transparent;
+        }
+
+        
+    
+        .navbar {
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 70px;
+            right: 0;
+            background-color: #333;
+            width: 100%;
+            z-index: 1;
+        }
+    
+        .navbar-list{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 2rem;
+        }
+    
+        .navbar.active {
+            display: flex;
+            
+        }
+    
+    }
