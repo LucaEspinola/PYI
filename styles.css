@@ -31,6 +31,10 @@ body {
     color: aliceblue;
 }
 
+.navbar-list li:hover{
+    transform: scale(1.2);
+}
+
 .navbar,
 .navbar-list {
     list-style: none;
@@ -367,9 +371,14 @@ width: 20px;
     width: 100%;
     transition: all 0.5s ease-out;
     transform: translateY(200%);
-  }
+}
   
-  .active-modal {
+.active-modal {
     transform: translateY(0);
     transition: all 0.5s ease-in;
-  }
+}
+
+
+.btn-add:hover{
+    transform: scale(1.1);
+}
