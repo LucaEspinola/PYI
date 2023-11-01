@@ -42,4 +42,13 @@
             
         }
     
+        .cart{
+            top: 0px;
+            min-width: 300px;
+            
+        }
+
+        .cart-total{
+            flex-direction: column;
+        }
     }
